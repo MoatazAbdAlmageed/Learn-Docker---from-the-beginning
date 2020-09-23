@@ -16,7 +16,10 @@
 
 - `docker run chrisnoring/node`
 - `docker run -p 8000:3000 chrisnoring/node`
+<!-- in background -->
 - `docker run -d -p 8000:3000 chrisnoring/node`
+<!--  with name -->
+- `docker run -p 8000:5000 --name mtzNode chrisnoring/node`
 
 ### List all running containers
 
@@ -24,11 +27,11 @@
 
 ### start containers
 
-- `docker start f40`
+- `docker start id-of-container`
 
 ### exec bash
 
-- `docker exec -it 268 bash`
+- `docker exec -it id-of-container bash`
 
 ### Remove container
 
@@ -38,7 +41,7 @@
 
 <!-- docker stop will try to stop it gracefully (will ask politely :P) -->
 
-- `docker stop f40`
+- `docker stop id-of-container`
 
 ### Remove kill
 
