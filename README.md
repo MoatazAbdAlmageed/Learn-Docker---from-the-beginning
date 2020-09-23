@@ -1,5 +1,7 @@
 # Learn-Docker---from-the-beginning
 
+- each part in separate git branch \*
+
 ## Commands
 
 ### creates an image
