@@ -48,3 +48,15 @@
 <!-- docker kill will stop the main entrypoint process/program abruptly -->
 
 - `docker kill id-of-container`
+
+## docker-compose
+
+<!-- Build image -->
+
+- `docker-compose build`
+<!-- up -->
+- `docker-compose up`
+<!-- stop -->
+- `docker-compose stop`
+<!-- down (docker stop [id] and docker rm [id] )-->
+- `docker-compose down`

@@ -1,0 +1,12 @@
+version: "3"
+services:
+  product-service:
+    build:
+      context: ./product-service
+    ports:
+      - "8000:3000"
+  inventory-service:
+    build:
+      context: ./inventory-service
+    ports:
+      - "8001:3000"
