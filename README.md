@@ -22,10 +22,6 @@
 
 - `docker ps`
 
-### Stop running containers
-
-- `docker stop f40`
-
 ### start containers
 
 - `docker start f40`
@@ -37,3 +33,15 @@
 ### Remove container
 
 - `docker rm id-of-container`
+
+### Stop running containers
+
+<!-- docker stop will try to stop it gracefully (will ask politely :P) -->
+
+- `docker stop f40`
+
+### Remove kill
+
+<!-- docker kill will stop the main entrypoint process/program abruptly -->
+
+- `docker kill id-of-container`
