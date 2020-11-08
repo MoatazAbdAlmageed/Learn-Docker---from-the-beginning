@@ -1,6 +1,10 @@
 # Learn-Docker---from-the-beginning
 
 ## Commands
+How do I run a docker instance from a DockerFile?
+
+docker build .
+
 
 ### creates an image
 
